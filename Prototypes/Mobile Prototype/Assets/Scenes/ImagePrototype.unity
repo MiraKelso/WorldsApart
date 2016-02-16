@@ -144,7 +144,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -200,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewOnGUI: 1
   enableGUILayout: 1
-  drawStateLabels: 0
+  drawStateLabels: 1
   GUITextureStateLabels: 1
   GUITextStateLabels: 1
   filterLabelsWithDistance: 0
@@ -8811,7 +8811,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5ba3ca6baa9c18647aa24a3e21adddb6, type: 2}
+  - {fileID: 2100000, guid: 8905b4eca75473a4e97dee96e0a98db7, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -8853,7 +8853,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 848104474}
   m_LocalRotation: {x: -0.0000006556511, y: 0.70710677, z: -0.7071068, w: -0.00000074505806}
-  m_LocalPosition: {x: 0.6, y: 1.11, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1.8809072, y: 2.2144728, z: 1.1744604}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9762,7 +9762,7 @@ MonoBehaviour:
     watermark: 
     password: 
     locked: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
