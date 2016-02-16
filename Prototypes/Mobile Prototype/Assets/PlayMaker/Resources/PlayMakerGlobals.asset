@@ -70,3 +70,4 @@ MonoBehaviour:
   - CubeSphere
   - SphereSecond
   - CubeSecond
+  - LoadLevel
